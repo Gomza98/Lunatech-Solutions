@@ -56,6 +56,20 @@
             cursor: pointer;
         }
 
+.logo img {
+    height: 140px; /* Adjust as needed */
+    width: auto;
+}
+
+.logo span {
+    font-size: 1.8rem;
+    font-weight: bold;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
         .nav-links {
             display: flex;
             list-style: none;
@@ -599,7 +613,10 @@
     <!-- Header -->
     <header>
         <nav class="container">
-            <a href="#home" class="logo">UnaVerse</a>
+                  <a href="#home" class="logo">
+  <img src="images/UV.png" alt="UnaVerse Logo">
+
+</a>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
